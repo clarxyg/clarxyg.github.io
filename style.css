@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline; 
+
+/*Isso se chama reset CSS. Ele reseta o padrão de css do browser*/}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #648FB7;
+    border-bottom: 10px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+nav {
+    text-align: right;
+    
+}
+
+
+a {
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    font-size: 19px;
+    font-family: "fira code", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 8px;
+    
+
+
+    /*A tag "a" tem como padrão o display inline. Isto é, fica tudo na mesma linha.
+    Ao botar display-block é possível alterar width e height, respectivamente: largura e altura*/
+}
+
+#button {
+    display: inline-block;
+    background-color: #7875D2;
+    padding-top: 13px;
+    padding-bottom: 11px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 0 black;
+    
+    
+    /*Coloca uma lasanha quando for se referir a um seletor*/
+}
+
+a::before {
+    content: " ";
+    display: inline-block;
+    background-color: #7875D2;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+
+    /*Os dois pontos representa um pseudo elemento*/
+}
+
+#button:hover {
+    background-color: #0a043c;
+
+    /*Transform: scale() aumenta o botão
+    Transition: transform 2s linear da ao botão uma animação
+    */ 
+}
