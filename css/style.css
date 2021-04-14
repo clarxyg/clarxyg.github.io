@@ -4,7 +4,8 @@ body {
     border: 0;
     font: inherit;
     font-size: 100%;
-    vertical-align: baseline; 
+    vertical-align: baseline;
+    
 
 /*Isso se chama reset CSS. Ele reseta o padrão de css do browser*/}
 header {
@@ -72,3 +73,4 @@ a::before {
     Transition: transform 2s linear da ao botão uma animação
     */ 
 }
+
