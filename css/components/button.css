@@ -1,0 +1,21 @@
+.button {
+    display: inline-block;
+    background-color: #7875D2;
+    padding-top: 13px;
+    padding-bottom: 11px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 0 black;
+    
+    
+    /*Coloca uma lasanha quando for se referir a um seletor*/
+}
+
+.button:hover {
+    background-color: #0a043c;
+
+    /*Transform: scale() aumenta o botão
+    Transition: transform 2s linear da ao botão uma animação
+    */ 
+}
+
