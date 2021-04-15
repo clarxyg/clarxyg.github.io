@@ -1,32 +1,4 @@
-body, h1, h2, h3 {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    font-size: 100%;
-    vertical-align: baseline;
-    
-
-/*Isso se chama reset CSS. Ele reseta o padrão de css do browser*/}
-header {
-    display: flex;
-    justify-content: space-between;
-    background-color: #648FB7;
-    border-bottom: 10px solid black;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-right: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-}
-nav {
-    text-align: right;
-    
-}
-
-
-a {
+.action {
     display: inline-flex;
     align-items: center;
     color: white;
@@ -44,7 +16,7 @@ a {
 
 
 
-a::before {
+.action::before {
     content: " ";
     display: inline-block;
     background-color: #7875D2;
@@ -56,4 +28,10 @@ a::before {
 }
 
 /* Quando usamos seletores de tag nos limites a atribuir sempre os mesmos valores para determinada tag
+   É uma vantagem quando desejamos atribuir o mesmo valor e pra quando queremos resetar o css.
+   O seletor de Id eu posso usar em elementos diferentes, mas o Id é único, só posso usar uma vez por página.
+   Não pode ser reutilizado. Usasse #
+   A class é um seletor que pode-se usar mais de uma vez por página e poder ser reutilizado, usa-se . parece selecionar.
+   */
+   
    
