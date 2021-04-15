@@ -1,11 +1,12 @@
 .banner {
     box-sizing: border-box;
-    background-color: #b8b5ff;
+    background-image: linear-gradient(#DAE5F7, #86adec, #82a5dd) ;
     height: 715px;
     background-size: 99%;
     border-bottom: 9px solid black;
     padding-top: 22px;
     padding-left: 27px;
+
 
     
 }

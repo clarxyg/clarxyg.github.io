@@ -19,7 +19,7 @@
 .action::before {
     content: " ";
     display: inline-block;
-    background-color: #7875D2;
+    background-color: #aaa6fa;
     width: 10px;
     height: 10px;
     margin-right: 10px;
