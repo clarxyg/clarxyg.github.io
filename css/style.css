@@ -1,4 +1,4 @@
-body {
+body, h1, h2, h3 {
     margin: 0;
     padding: 0;
     border: 0;
@@ -42,18 +42,7 @@ a {
     Ao botar display-block é possível alterar width e height, respectivamente: largura e altura*/
 }
 
-#button {
-    display: inline-block;
-    background-color: #7875D2;
-    padding-top: 13px;
-    padding-bottom: 11px;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-shadow: 5px 5px 0 black;
-    
-    
-    /*Coloca uma lasanha quando for se referir a um seletor*/
-}
+
 
 a::before {
     content: " ";
@@ -66,11 +55,5 @@ a::before {
     /*Os dois pontos representa um pseudo elemento*/
 }
 
-#button:hover {
-    background-color: #0a043c;
-
-    /*Transform: scale() aumenta o botão
-    Transition: transform 2s linear da ao botão uma animação
-    */ 
-}
-
+/* Quando usamos seletores de tag nos limites a atribuir sempre os mesmos valores para determinada tag
+   
