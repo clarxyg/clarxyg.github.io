@@ -1,5 +1,6 @@
 .section {
-    background-color: #0a043c;
+    background-image: linear-gradient( #dff0ea, #8fb1e7);
+    /*background-image: linear-gradient(#9590f0, #7ca9f1, #82a5dd);*/
     padding-bottom: 40px;
     padding-top: 47px;
     border-bottom: 9px solid black;
