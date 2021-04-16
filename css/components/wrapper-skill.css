@@ -8,12 +8,17 @@
 
 .wrapper-skill .skill {
     width: 429px;
+    margin-bottom: 38px;
 }
 
-.wrapper-skill .skill.-space {
-    margin-right: 100px;
+.wrapper-skill .skill:nth-child(odd) {
+    margin-right: 70px;
+    
+    
+   
 }
 
 .wrapper-skill .progress {
     width: 320px;
 }
+

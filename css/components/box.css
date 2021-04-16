@@ -1,9 +1,12 @@
 .box {
     display: inline-block;
     background-color: #0a043c;
+    width: 493px;
+    height: 83px;
     box-shadow: 10px 10px 0 black;
     text-align: center;
     padding: 42px 42px;
+    
     
 }
 
