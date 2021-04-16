@@ -13,3 +13,8 @@
     flex-direction: column;
     justify-content: space-around;
 }
+
+.skill .art {
+    height: 99px;
+    width: 123px;
+}
