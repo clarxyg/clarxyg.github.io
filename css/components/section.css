@@ -1,13 +1,26 @@
 .section {
     background-image: linear-gradient(#b9cce9, #729ce0, #4984e2);
-    /*background-image: linear-gradient(#9590f0, #7ca9f1, #82a5dd);*/
     padding-bottom: 40px;
     padding-top: 47px;
     border-bottom: 9px solid black;
     height: 564px;
 }
 
-.section .main-title {
+.section .main-title.-second {
     margin-bottom: 60px;
+}
+
+.section .main-title.-second.-third {
+    margin-bottom: 60px;
+    color: white;
+}
+
+.section.-bgblue {
+    background-image: linear-gradient(#0a043c, #0a043c,  #191352);
+    height: 413px;
+}
+
+.section.-bdfirst {
+    border-color: black;
 }
 
