@@ -2,7 +2,7 @@
     background-image: linear-gradient(#b9cce9, #729ce0, #4984e2);
     padding-bottom: 40px;
     padding-top: 47px;
-    border-bottom: 9px solid black;
+    border-bottom: 9px solid #3c38bb;
     height: 564px;
 }
 
@@ -21,6 +21,14 @@
 }
 
 .code-section.-bdfirst {
+    border-color: #3c38bb;
+}
+
+.code-section.-bgvariation {
+    background-image: linear-gradient(#4984e2, #729ce0, #84a2d8);
+}
+
+.code-section.-bdvariation {
     border-color: black;
 }
 
