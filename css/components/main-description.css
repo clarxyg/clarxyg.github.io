@@ -1,0 +1,9 @@
+.main-description {
+    font-family: "Fira code", sans-serif;
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 1.4;
+    
+    /*Esse 1.4 no line-height é um multiplicador do font-size. Ele da o espaçamento do topo e base das linhas*/
+    
+}
