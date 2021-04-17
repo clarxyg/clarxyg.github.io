@@ -8,6 +8,18 @@
 }
 
 .logos {
-    width: 180px;
-    height: 180px;
+    width: 190px;
+    height: 190px;
+}
+
+.card-project.-first:hover {
+    transform: scale(1.1);
+}
+
+.card-project.-second:hover {
+    transform: scale(1.1);
+}
+
+.card-project.-third:hover {
+    transform: scale(1.1);
 }
