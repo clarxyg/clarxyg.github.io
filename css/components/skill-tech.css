@@ -1,24 +1,24 @@
-.skill {
+.skill-tech {
     display: flex;
     font-family: "Press start 2P", sans-serif;
     font-size: 19px;
 }
 
-.skill .icon {
+.skill-tech .icon {
     margin-right: 25px;
 }
 
-.skill .right {
+.skill-tech .right {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-.skill .art {
+.skill-tech .art {
     height: 99px;
     width: 123px;
 }
 
-.skill .title {
+.skill-tech .title {
     margin-bottom: 20px;
 }
