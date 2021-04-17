@@ -1,4 +1,4 @@
-.button {
+.code-button {
     display: inline-block;
     background-color: #7875D2;
     padding-top: 13px;
@@ -16,7 +16,7 @@
     /*Coloca uma lasanha quando for se referir a um seletor*/
 }
 
-.button:hover {
+.code-button:hover {
     background-color: #0a043c;
 
     /*Transform: scale() aumenta o botão
