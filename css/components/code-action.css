@@ -1,4 +1,4 @@
-.action {
+.code-action {
     display: inline-flex;
     align-items: center;
     color: white;
@@ -16,7 +16,7 @@
 
 
 
-.action::before {
+.code-action::before {
     content: " ";
     display: inline-block;
     background-color: #aaa6fa;
