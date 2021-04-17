@@ -1,4 +1,4 @@
-.banner {
+.code-banner {
     box-sizing: border-box;
     background-image: linear-gradient( #dff0ea, #abc3eb, #82abee) ;
     height: 715px;
@@ -14,7 +14,7 @@
 
 /* O display flex muda o comportamento dos filhos*/
 
-.banner .wrapper {
+.code-banner .wrapper {
     display: flex;
     flex-direction: column;
     width: 457px;
@@ -24,12 +24,12 @@
 
 }
 
-.banner .box {
+.code-banner .box {
     margin-bottom: 29px;
     
 }
 
-.banner .navigation {
+.code-banner .navigation {
     display: flex;
     justify-content: space-evenly;
 }
