@@ -1,4 +1,4 @@
-.box {
+.code-box {
     display: inline-block;
     background-color: #0a043c;
     width: 493px;
@@ -10,6 +10,6 @@
     
 }
 
-.box .main-title  {
+.code-box .main-title  {
     margin-bottom: 17px;
 }
