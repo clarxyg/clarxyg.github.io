@@ -1,4 +1,4 @@
-.section {
+.code-section {
     background-image: linear-gradient(#b9cce9, #729ce0, #4984e2);
     padding-bottom: 40px;
     padding-top: 47px;
@@ -6,21 +6,21 @@
     height: 564px;
 }
 
-.section .main-title.-second {
+.code-section .main-title.-second {
     margin-bottom: 60px;
 }
 
-.section .main-title.-second.-third {
+.code-section .main-title.-second.-third {
     margin-bottom: 60px;
     color: white;
 }
 
-.section.-bgblue {
+.code-section.-bgblue {
     background-image: linear-gradient(#0a043c, #0a043c,  #191352);
     height: 383px;
 }
 
-.section.-bdfirst {
+.code-section.-bdfirst {
     border-color: black;
 }
 
