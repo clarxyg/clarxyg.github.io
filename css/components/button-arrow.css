@@ -3,6 +3,8 @@
     width: 49px;
     box-shadow: 5px 5px 0 black;
     background-color: #7875D2;
+    overflow: hidden;
+    
 }
 
 .button-arrow .content {
@@ -40,5 +42,6 @@
     margin-top: 121px;
     margin-left: 55px;
 }
+
 
 
