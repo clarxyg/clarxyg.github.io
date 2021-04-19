@@ -11,19 +11,34 @@
 
 .button-arrow::before {
     content: '';
-    display: block;
+    display: flex;
     box-sizing: border-box;
     width: 14px;
     height: 15px;
     border: 15px solid transparent;
     border-left: 28px solid white;
     transform: translateX(5px);
-    }
+    justify-content: space-around;
+}
 
 
-.button-arrow.-left::before {
-    transform: rotate(180deg) translateX(11px);
-    display: inline-flex;
+.button-arrow.-right::after {
+    transform: rotate(360deg) translateX(3.5px);
+    
     
 }
+.button-arrow.-left::before {
+    transform: rotate(180deg) translateX(14px);
+}
+
+.button-arrow.-left {
+    margin-top: 121px;
+    margin-right: 55px;
+}
+
+.button-arrow.-right {
+    margin-top: 121px;
+    margin-left: 55px;
+}
+
 

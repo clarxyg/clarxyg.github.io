@@ -25,7 +25,9 @@
 }
 
 .code-section.-bgvariation {
-    background-image: linear-gradient(#4984e2, #729ce0, #84a2d8);
+    background-image: linear-gradient(#4984e2, #729ce0, #9997e0);
+    height: 465px;
+   
 }
 
 .code-section.-bdvariation {

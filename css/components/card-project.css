@@ -5,6 +5,8 @@
     background-color: #332f2f;
     box-shadow: 10px 10px white;
     width: 180px;
+    margin-top: 40px;
+    
 }
 
 .logos {
@@ -23,3 +25,11 @@
 .card-project.-third:hover {
     transform: scale(1.1);
 }
+
+ .elements {
+    display: flex;
+}
+
+
+
+

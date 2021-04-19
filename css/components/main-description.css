@@ -1,9 +1,21 @@
 .main-description {
     font-family: "Fira code", sans-serif;
     font-size: 27px;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 1.4;
+    margin-left: 25px;
     
     /*Esse 1.4 no line-height é um multiplicador do font-size. Ele da o espaçamento do topo e base das linhas*/
     
+}
+
+
+
+.pixelart {
+    display: flex;
+    flex-direction: column;
+    width: 144px;
+    height: 144px;
+    margin-top: 46.5px;
+    margin-left: 83.5%;
 }
