@@ -9,4 +9,12 @@ body, h1, h2, h3 {
 
 /*Isso se chama reset CSS. Ele reseta o padrão de css do browser*/}
 
+button {
+    border: none;
+    font-family: inherit;
+}
 
+input {
+    margin: 0;
+    padding: 0;
+}
