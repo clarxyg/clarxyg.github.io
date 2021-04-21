@@ -14,8 +14,8 @@
 .pixelart {
     display: flex;
     flex-direction: column;
-    width: 144px;
-    height: 144px;
-    margin-top: 46.5px;
-    margin-left: 83.5%;
+    width: 224px;
+    height: 224px;
+    margin-top: 65.5px;
+    margin-left: 84.5%;
 }
