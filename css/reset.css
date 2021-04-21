@@ -6,6 +6,9 @@ body, h1, h2, h3 {
     font-size: 100%;
     vertical-align: baseline;
     
+    
+    
+    
 
 /*Isso se chama reset CSS. Ele reseta o padrão de css do browser*/}
 
@@ -18,4 +21,14 @@ input {
     margin: 0;
     padding: 0;
 }
+
+
+@media screen and (max-width: 300px)       
+   {
+       body {
+           width: 100%;
+       }
+   }
+
+
 
